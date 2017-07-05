@@ -1,4 +1,4 @@
-// Judge expexts on('input') event when search in the list!!!
+// Judge expects on('input') event when searching in the list!!!
 // https://stackoverflow.com/questions/38502560/diffrence-between-keyup-keydown-keypress-and-input-events
 function domSearch(selector, isCaseSensitiveSearch = false) {
 
