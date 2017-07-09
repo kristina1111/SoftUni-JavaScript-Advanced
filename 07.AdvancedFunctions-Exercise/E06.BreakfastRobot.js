@@ -77,6 +77,7 @@ let breakfastRobot = (function robotFunctionality() {
     return manage;
 })();
 
+// Test 1
 // console.log(breakfastRobot('prepare cheverme 1'));
 // console.log(breakfastRobot('restock protein 10'));
 // console.log(breakfastRobot('prepare cheverme 1'));
@@ -88,6 +89,7 @@ let breakfastRobot = (function robotFunctionality() {
 // console.log(breakfastRobot('prepare cheverme 1'));
 // console.log(breakfastRobot('report'));
 //
+// Test 2
 // console.log(breakfastRobot('restock flavour 50'));
 // console.log(breakfastRobot('prepare coke 4'));
 // console.log(breakfastRobot('restock carbohydrate 10'));
@@ -97,6 +99,7 @@ let breakfastRobot = (function robotFunctionality() {
 // console.log(breakfastRobot('prepare burger 1'));
 // console.log(breakfastRobot('report'));
 
+// Test 3
 // console.log(breakfastRobot('restock protein 100'));
 // console.log(breakfastRobot('restock carbohydrate 100'));
 // console.log(breakfastRobot('restock fat 100'));
