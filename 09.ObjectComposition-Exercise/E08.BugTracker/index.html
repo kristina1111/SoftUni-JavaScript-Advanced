@@ -37,15 +37,23 @@
 </div>
 <script src="bugTracker.js"></script>
 <script>
+//    bugTracker.output('#content');
+//    bugTracker.report('guy', 'report content', true, 5);
+//    bugTracker.report('second guy', 'report content 2', true, 3);
+//    bugTracker.report('abv', 'report content three', true, 4);
+//    bugTracker.report('krisi', 'some bugs', false, 12);
+//    bugTracker.report('redi', 'some more more bugs', true, 9);
+//    bugTracker.report('megi', 'more bugs', true, 6);
+//    bugTracker.report('krasi', 'bugs bugs', true, 7);
+//    bugTracker.sort('severity');
+
     bugTracker.output('#content');
     bugTracker.report('guy', 'report content', true, 5);
     bugTracker.report('second guy', 'report content 2', true, 3);
     bugTracker.report('abv', 'report content three', true, 4);
-    bugTracker.report('krisi', 'some bugs', false, 12);
-    bugTracker.report('redi', 'some more more bugs', true, 9);
-    bugTracker.report('megi', 'more bugs', true, 6);
-    bugTracker.report('krasi', 'bugs bugs', true, 7);
+    bugTracker.sort('author');
     bugTracker.sort('severity');
+    bugTracker.sort('ID');
 //        bugTracker.remove(1);
 //    bugTracker.remove(2);
 </script>

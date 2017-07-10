@@ -10,7 +10,7 @@ let bugTracker = (function () {
             description: description,
             reproducible: reproducible,
             severity: severity,
-            status: 'open'
+            status: 'Open'
         };
         id++;
         if(selector){
@@ -48,7 +48,7 @@ let bugTracker = (function () {
                     return a.author.localeCompare(b.author);
                 case 'severity':
                     return a.severity - b.severity;
-                case 'id':
+                case 'ID':
                     return a.ID - b.ID;
             }
         });
