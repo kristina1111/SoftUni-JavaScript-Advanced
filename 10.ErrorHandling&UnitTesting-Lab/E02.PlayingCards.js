@@ -23,4 +23,8 @@ let makeCard = (function () {
     }
 })();
 
-console.log(makeCard('1', 'S').toString());
+module.exports = {
+    makeCard : makeCard
+}
+
+// console.log(makeCard('1', 'S').toString());
