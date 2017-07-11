@@ -1,5 +1,6 @@
 let sum = require('./sumOfNumbers').sum;
 let expect = require('chai').expect;
+
 describe("Test summator", function () {
     it("Should return 3 for [1, 2]", function () {
         expect(sum([1, 2])).to.equal(3)
