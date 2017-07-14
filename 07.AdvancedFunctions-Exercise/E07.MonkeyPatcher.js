@@ -5,13 +5,15 @@
 //     upvotes: 100,
 //     downvotes: 100
 // };
+// le
+
 let post = {
-    id: '3',
-    author: 'emil',
-    content: 'wazaaaaa',
-    upvotes: 4,
-    downvotes: 5
-};
+    id: '2',
+    author: 'gosho',
+    content: 'whats up?',
+    upvotes: 120,
+    downvotes: 30
+}
 
 let solution = function (action) {
     //doesn't work without assigning this to new variable
@@ -69,6 +71,6 @@ console.log(score);
 //     solution.call(post, 'downvote');        // (executed 50 times)
 // }
 // score = solution.call(post, 'score');
-solution.call(post, 'downvote');
-score = solution.call(post, 'score');
-console.log(score);
+// solution.call(post, 'downvote');
+// score = solution.call(post, 'score');
+// console.log(score);

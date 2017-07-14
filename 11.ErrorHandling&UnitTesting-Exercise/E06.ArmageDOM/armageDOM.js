@@ -1,0 +1,9 @@
+function nuke(selector1, selector2) {
+    if (selector1 === selector2) return;
+    $(selector1).filter(selector2).remove();
+}
+// nuke('.inside', '.nested');
+
+module.exports = {
+    nuke
+};
