@@ -1,6 +1,5 @@
 let copier = (function copyTemplate() {
     let obj = {
-        __proto__: {},
         extend: function (templateObj) {
             for(let prop in templateObj){
                 if(typeof(templateObj[prop]) == 'function'){
