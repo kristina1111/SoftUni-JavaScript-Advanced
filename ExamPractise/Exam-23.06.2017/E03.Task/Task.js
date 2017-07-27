@@ -27,7 +27,7 @@ class Task {
         let helpObj = {
             'in progress' : 2,
             'open' : 3,
-            'completed' : 4
+            'complete' : 4
         };
 
         if(this.isOverdue && this.status.toLowerCase() !== 'complete'){
